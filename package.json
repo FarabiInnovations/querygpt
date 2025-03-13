@@ -1,0 +1,26 @@
+{
+  "name": "querygpt",
+  "version": "0.0.1",
+  "description": "Multiagent QueryGPT Implementation in Langgraph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FarabiInnovations/querygpt.git"
+  },
+  "keywords": [
+    "AI",
+    "LLM",
+    "Application",
+    "QueryGPT",
+    "SQL"
+  ],
+  "author": "Rabea Abdelwahab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarabiInnovations/querygpt/issues"
+  },
+  "homepage": "https://github.com/FarabiInnovations/querygpt#readme"
+}
