@@ -1,18 +1,6 @@
-# Farabi QueryGPT
+# QueryGPT
 
-This is an implementation of QueryGPT from Uber including 3 agents using Langchainjs
-
-## Contributing
-
-We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-Special thanks to the team at Uber for their support and guidance.
+This is an implementation of QueryGPT from Uber including 3 agents using LangGraph
 
 ## Dataset Used
 Northwind for SQLLite from [SQLite3 version of Microsoft's Northwind Database on Github](https://github.com/jpwhite3/northwind-SQLite3?tab=readme-ov-file)
@@ -36,3 +24,13 @@ Northwind for SQLLite from [SQLite3 version of Microsoft's Northwind Database on
 | Order Details Extended            | Summary of Sales by Year          |
 | Order Subtotals                   | Suppliers                         |
 | Orders                            | Territories                       |
+
+
+## Contributing
+We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+Special thanks to the team at Farabi Innovations for their support and guidance.
