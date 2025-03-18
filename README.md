@@ -9,7 +9,7 @@ The idea of the implementation is a POC for how would such setup work, where the
 - **SQL Agent** turns eventually the prompt into a SQL query that can be executed on the database.
 - **SQL Execution Agent** to run the query and return the results
 
-![QueryGPT Diagram](assets/querygpt.jpg)
+![QueryGPT Diagram](assets/qgpt.png)
 
 ## Dataset Used
 Northwind for SQLLite from [SQLite3 version of Microsoft's Northwind Database on Github](https://github.com/jpwhite3/northwind-SQLite3?tab=readme-ov-file)
