@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/FarabiInnovations/querygpt/issues"
   },
-  "homepage": "https://github.com/FarabiInnovations/querygpt#readme"
+  "homepage": "https://github.com/FarabiInnovations/querygpt#readme",
+  "dependencies": {
+    "@langchain/core": "^0.3.42",
+    "@langchain/langgraph": "^0.2.55",
+    "@langchain/openai": "^0.4.4",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
 }
