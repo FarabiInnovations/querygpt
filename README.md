@@ -11,6 +11,11 @@ The idea of the implementation is a POC for how would such setup work, where the
 
 ![QueryGPT Diagram](assets/qgpt.png)
 
+## LLM and Library used
+Currently using `gpt-4o-mini` from OpenAI, through `@langchina/openai`
+
+So please make sure you have an `OPENAI_API_KEY` in your environment.
+
 ## Dataset Used
 Northwind for SQLLite from [SQLite3 version of Microsoft's Northwind Database on Github](https://github.com/jpwhite3/northwind-SQLite3?tab=readme-ov-file)
 
