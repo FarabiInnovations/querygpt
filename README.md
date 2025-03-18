@@ -1,6 +1,6 @@
 # QueryGPT
 
-This is an implementation of QueryGPT from Uber including 3 agents using LangGraphjs
+This is an implementation of QueryGPT from Uber including 5 agents using LangGraphjs
 
 The idea of the implementation is a POC for how would such setup work, where there is 3 agents:
 - **Intent Agent** identifing the business domains the user is asking about with natural language
@@ -12,7 +12,7 @@ The idea of the implementation is a POC for how would such setup work, where the
 ![QueryGPT Diagram](assets/qgpt.png)
 
 ## LLM and Library used
-Currently using `gpt-4o-mini` from OpenAI, through `@langchina/openai`
+Currently defining the model used per agent, all of them for now are using `gpt-4o-mini` from OpenAI, through `@langchain/openai`
 
 So please make sure you have an `OPENAI_API_KEY` in your environment.
 
