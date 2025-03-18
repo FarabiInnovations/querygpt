@@ -42,6 +42,8 @@ Northwind for SQLLite from [SQLite3 version of Microsoft's Northwind Database on
 ## Sample Output
 
 ```bash
+$ node index.ts
+
 ========== Intent Agent Result ==========
 The relevant workspace involved in your query is: Employee & Territories.
 =========================================
