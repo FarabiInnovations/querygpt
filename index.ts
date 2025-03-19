@@ -5,7 +5,7 @@ import { agent as SQLAgent } from "./agents/sqlAgent.ts"
 import { agent as SQLExecutionAgent } from "./agents/execution.ts"
 import { HumanMessage } from "@langchain/core/messages";
 
-const query = "how many employees do we have?"; 
+const query = "how many employess per territory do we have?"; 
 
 const result = await IntentAgent.invoke({ messages: [new HumanMessage(query)] });
 console.log("========== Intent Agent Result ==========");
